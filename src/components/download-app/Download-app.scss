@@ -1,0 +1,19 @@
+$qrcode: 150px;
+
+.Download-app {
+  .Qr-code {
+    display: flex;
+    justify-content: center;
+    > img {
+      width: $qrcode;
+      height: $qrcode;
+    }
+  }
+  .App-store {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 150px;
+    }
+  }
+}

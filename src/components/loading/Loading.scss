@@ -1,0 +1,18 @@
+.Spinner {
+  display: flex;
+  justify-content: center;
+  img {
+    animation: Spinner-animation infinite 3s linear;
+    height: 5vmin;
+    pointer-events: none;
+  }
+}
+
+@keyframes Spinner-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

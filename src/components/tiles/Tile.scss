@@ -1,0 +1,17 @@
+.Tile {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center;
+  position: relative;
+  min-height: 25vw;
+  > span {
+    margin: auto;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

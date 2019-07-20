@@ -1,0 +1,7 @@
+.Modal {
+  max-height: 30vw;
+  overflow: auto;
+  > div {
+    margin: 20px;
+  }
+}

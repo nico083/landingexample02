@@ -1,0 +1,46 @@
+@import 'bulma/sass/utilities/_all.sass';
+@import '../../assets/styles/_typography.scss';
+
+.Form-group {
+  .Privacy-text {
+    font-size: $font-normal;
+    line-height: 15px;
+    color: $grey-light;
+  }
+
+  .tile {
+    flex-basis: auto;
+  }
+
+  .Error-msg {
+    color: $red;
+    font-size: $font-small;
+  }
+
+  label {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    width: 100%;
+    > span {
+      font-size: $font-normal;
+      color: $grey-light;
+    }
+  }
+
+  input {
+    width: 100%;
+    &[type='submit'] {
+      align-self: flex-end;
+    }
+    &[type='text'] {
+      border: none;
+      border-bottom: 1px solid;
+      &:focus {
+        outline-color: transparent;
+      }
+      &.Error-input {
+        border-color: $red;
+      }
+    }
+  }
+}
